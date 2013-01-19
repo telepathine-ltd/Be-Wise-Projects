@@ -98,7 +98,19 @@ table {
 }
 /* End hide from IE-mac */
 
-#content{
+body{
+    background: url(images/bg.jpg);
+}
+
+.content{
 width: 1164px;
 margin: 0 auto;
+}
+
+#about{
+    height: 400px;
+}
+#layout{
+    height: 400px;
+    background: #333;
 }
