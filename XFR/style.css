@@ -35,6 +35,49 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*FONTS*/
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('fonts/myriad_web_pro-webfont-webfont.eot');
+    src: url('fonts/myriad_web_pro-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/myriad_web_pro-webfont-webfont.woff') format('woff'),
+         url('fonts/myriad_web_pro-webfont-webfont.ttf') format('truetype'),
+         url('fonts/myriad_web_pro-webfont-webfont.svg#myriad_web_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'GearedSlab';
+    src: url('fonts/gearedslab-webfont.eot');
+    src: url('fonts/gearedslab-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gearedslab-webfont.woff') format('woff'),
+         url('fonts/gearedslab-webfont.ttf') format('truetype'),
+         url('fonts/gearedslab-webfont.svg#geared_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'GearedSlabLight';
+    src: url('fonts/gearedslab-light-webfont.eot');
+    src: url('fonts/gearedslab-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gearedslab-light-webfont.woff') format('woff'),
+         url('fonts/gearedslab-light-webfont.ttf') format('truetype'),
+         url('fonts/gearedslab-light-webfont.svg#geared_slabthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* CLEAR FIX*/
 .clearfix:after {
 	content: ".";
