@@ -49,9 +49,6 @@ table {
 
 }
 
-
-
-
 @font-face {
     font-family: 'GearedSlab';
     src: url('fonts/gearedslab-webfont.eot');
@@ -63,9 +60,6 @@ table {
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'GearedSlabLight';
@@ -217,7 +211,7 @@ section#layout{
 }
 
 section#layout .layoutP{
-    padding: 0px 60px 40px 60px;
+    padding: 40px 60px 40px 60px;
 }
 
 section#layout .content .layoutP h1{
