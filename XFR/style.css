@@ -78,6 +78,22 @@ table {
     font-style: normal;
 
 }
+
+
+@font-face {
+    font-family: 'Jenna';
+    src: url('fonts/jennasue-webfont.eot');
+    src: url('fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/jennasue-webfont.woff') format('woff'),
+         url('fonts/jennasue-webfont.ttf') format('truetype'),
+         url('fonts/jennasue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 /* CLEAR FIX*/
 .clearfix:after {
 	content: ".";
@@ -104,13 +120,342 @@ body{
 
 .content{
 width: 1164px;
-margin: 0 auto;
+margin: auto;
 }
 
-#about{
-    height: 400px;
+p, ul li{
+    font-family: MyriadPro;
+    font-size: 13px;
+    line-height: 20px;
 }
-#layout{
-    height: 400px;
+
+header{
+    background: #333;
+-webkit-box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, .3);
+box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, .3);
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+header ul li{
+    display:inline;
+    text-align:center;
+}
+header ul#nav li{
+    margin: 0px 50px 0px 50px;
+}
+header ul#nav li a{
+    font-family: GearedSlab;
+    color: #CCC;
+    text-decoration: none;
+    -webkit-transition: color .3s ease-in-out;
+-moz-transition: color .3s ease-in-out;
+-ms-transition: color .3s ease-in-out;
+-o-transition: color .3s ease-in-out;
+transition: color .3s ease-in-out;
+}
+header ul#nav li a:hover{
+    font-family: GearedSlab;
+    color: #FFF;
+    text-decoration: none;
+}
+header ul#social {
+    margin-top: 20px;
+}
+header ul#social li{
+    margin: 0px 10px 0px 10px;
+    position: relative;
+    left:-5px;
+}
+section#about{
+     padding: 40px 0px 100px 0px;
+}
+
+section#about img{
+    margin-bottom: 60px;
+}
+
+section#about .content .about h1{
+    font-family:GearedSlab;
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+}
+section#about .content .about p{
+    font-family: MyriadPro;
+    padding-top: 10px;
+    font-size: 13px;
+    border-top: solid thin #CCC;
+    text-align: justify;
+    line-height: 20px;
+    color: #555;
+}
+section#about .content .about{
+    float:left;
+    width: 44%;
+    padding-left: 45px;
+}
+.bold{
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 13px;
+    font-family: MyriadPro;
+}
+section#about .content .about p.inspired{
+    border:none;
+    margin-top:20px;
+}
+h1 sup{
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+section#layout{
+    background: #333;
+    padding: 40px 0px 40px 0px;
+}
+
+section#layout .layoutP{
+    padding: 0px 60px 40px 60px;
+}
+
+section#layout .content .layoutP h1{
+    font-family:GearedSlab;
+    color: #CCC;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+section#layout .content .layoutP p{
+    font-family: MyriadPro;
+    padding: 20px 0px 20px 0px;
+    font-size: 13px;
+    border-top: solid 2px #555;
+    color: #CCC;
+    text-align: justify;
+    line-height: 20px;
+}
+section#layout .content .layoutP p:nth-child(3){
+    font-family: MyriadPro;
+    padding-top: 10px;
+    font-size: 13px;
+    border-top: none;
+    color: #CCC;
+    text-align: justify;
+    line-height: 20px;
+}
+section#layout .dept{
+    float:left;
+    margin-right: 40px;
+    width: 260px;
+    text-align: center;
+}
+
+section#layout .dept img{
+    height: 320px;
+    margin: 20px 0px 20px 0px;
+   
+}
+section#layout .dept:nth-last-of-type(1){
+    margin-right: 0px;
+}
+section#layout .dept h2{
+    font-family: GearedSlab;
+    font-size: 25px;
+    width: 100%;
+    color: #CCC;
+    padding: 10px 0px 10px 0px;
+    background: #444;
+    letter-spacing: 4px;
+}
+section#layout .dept p{
+    text-align: justify;
+    color: #CCC;
+    border-top: solid 2px #555;
+    padding-top: 10px;
+    height: 200px;
+}
+
+section#layout .dept .bold{
+color: #CCC;
+}
+
+section#membership{
+padding-top: 40px;
+padding-bottom: 80px;
+}
+
+section#membership .content h1, section#packages .content h1{
+    font-family:GearedSlab;
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+section#membership .layoutP{
+    padding: 60px 60px 40px 60px;
+}
+
+section#membership .content .layoutP p{
+    font-family: MyriadPro;
+    padding: 20px 0px 20px 0px;
+    font-size: 13px;
+    color: #666;
+    width: 50%;
+    text-align: justify;
+    line-height: 20px;
+     float:left;
+}
+#line{
+    height: 2px;
+    background: #d8d8ce;
+    width: 100%;
+}
+.handwriting{
+font-family: jenna;
+font-size: 28px;
+}
+
+#runitself{
+position: relative;
+left: 100px;
+top: 40px;
+-moz-transform: scale(1) rotate(5deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+-webkit-transform: scale(1) rotate(5deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+-o-transform: scale(1) rotate(5deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+-ms-transform: scale(1) rotate(5deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+transform: scale(1) rotate(5deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+}
+
+#runitself img{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+section#packages{
+    background:#595959;
+    border-top: 10px #d8d8ce solid;
+    border-bottom: 10px #d8d8ce solid;
+    color: #CCC;
+}
+
+
+section#packages .content #package{
+    float:left;
+    text-align: justify;
+    width: 250px;
+    border-right: #888 solid 1px;
+    padding: 40px 20px 110px 0px;
+}
+
+section#packages .content h1{
+    color: #CCC;
+}
+
+section#packages .content #package p{
+line-height: 23px;
+}
+section#packages .content #package .bold{
+position: relative;
+top: 25px;
+}
+.row{
+    float:left;
+}
+.row .cell{
+    float:left;
+    min-width: 270px;
+    padding-left: 20px;
+}
+
+.row#row1{
+    border-bottom: solid thin #888;
+}
+.row#row1 .cell{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-right: solid thin #888;
+}
+
+.row#row2 .cell{
+    padding-top: 5px;
+    padding-bottom: 90px;
+    border-right: solid thin #888;
+}
+.row#row1 .cell:nth-child(2){
+padding-right: 20px;
+}
+
+.row#row2 .cell:nth-child(2){
+padding-right: 20px;
+}
+
+section#options1{
+    padding: 40px 0px 40px 0px;
+}
+.option{
+    float:left;
+    margin-right: 0px;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 24px;
+    text-align: center;
+}
+.option:nth-child(1){
+    margin-left: 0px;
+}
+.option:nth-child(4){
+    margin-right: 0px;
+}
+
+.option img{
+    height: 140px;
+    opacity: .7;
+}
+.option h3{
+      font-family:GearedSlab;
+    color: #888;
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 8px;
+}
+.option p{
+margin-top: 15px;
+height: 130px;
+}
+
+section#options2{
     background: #333;
 }
+section#options2 .placeholder{
+    font-size: 100px;
+    color: #FFF;
+}
+section#signup{
+    padding: 60px 0px 60px 0px;
+}
+section#signup .layoutP{
+    padding: 60px 60px 40px 60px;
+}
+
+section#signup .content .layoutP p{
+    font-family: MyriadPro;
+    padding: 20px 0px 0px 0px;
+    font-size: 13px;
+    color: #666;
+    width: 50%;
+    text-align: justify;
+    line-height: 20px;
+}
+
+section#signup .content .layoutP h1{
+    font-family:GearedSlab;
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
